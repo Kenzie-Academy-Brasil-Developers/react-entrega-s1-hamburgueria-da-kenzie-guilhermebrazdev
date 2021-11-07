@@ -1,0 +1,86 @@
+.App-header {
+  display: flex;
+  margin-left: 50px;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: white;
+}
+
+#titleBox {
+  display: flex;
+  align-items: flex-end;
+}
+
+#titleBox p {
+  color: #eb5757;
+  font-size: 15px;
+  font-weight: 500;
+  padding-left: 3px;
+  margin-bottom: 22px;
+}
+
+#pesquisa {
+  width: 250px;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  border: 2px solid #e0e0e0;
+  border-radius: 8px;
+}
+#pesquisa input {
+  border: none;
+}
+#pesquisa button {
+  background: #27ae60;
+  border: none;
+  border-radius: 8px;
+  margin: 4px;
+}
+
+#inputPesquisa {
+  width: 100%;
+}
+
+#showFood {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#navegacao {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  color: black;
+  justify-content: space-between;
+  align-items: center;
+}
+
+@media (min-width: 768px) {
+  #mainBox {
+    display: flex;
+    width: 50vw;
+    padding-left: 2px;
+  }
+
+  #showFood {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+
+  #navegacao {
+    display: flex;
+    flex-direction: row;
+  }
+
+  #pesquisa {
+    width: 310px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    border: 2px solid #e0e0e0;
+    border-radius: 8px;
+  }
+}

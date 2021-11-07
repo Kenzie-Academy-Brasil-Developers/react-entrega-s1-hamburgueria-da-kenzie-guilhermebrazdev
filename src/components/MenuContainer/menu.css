@@ -1,0 +1,16 @@
+#cardapio {
+  width: 100vw;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  overflow-x: scroll;
+}
+
+@media (min-width: 768px) {
+  #cardapio {
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+    width: 1050px;
+  }
+}
