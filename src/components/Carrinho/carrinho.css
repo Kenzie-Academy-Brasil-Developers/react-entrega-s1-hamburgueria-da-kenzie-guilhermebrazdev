@@ -1,10 +1,9 @@
 #titleCart {
   display: flex;
-  text-align: left;
   align-items: center;
   background: #27ae60;
   color: white;
-  width: 280px;
+  width: 94%;
   padding: 8px;
   height: 30px;
   font-size: 20px;
@@ -15,8 +14,9 @@
 }
 
 #carrinho {
+  display: flex;
+  flex-direction: column;
   width: 280px;
-  height: 400px;
   margin-top: 30px;
   border-radius: 8px;
   color: black;
@@ -26,6 +26,7 @@
 
 #carrinho ul {
   display: flex;
+  width: 100%;
   flex-direction: column;
   justify-content: space-around;
   align-items: center;
@@ -76,6 +77,10 @@
   width: 90%;
   color: #828282;
   font-weight: 600;
+  cursor: pointer;
+}
+#removeAllBotao:hover {
+  filter: brightness(0.9);
 }
 
 #price {
@@ -85,4 +90,17 @@
 
 #total {
   font-weight: 800;
+}
+
+@media (min-width: 768px) {
+  #carrinho {
+    display: flex;
+    flex-direction: column;
+    width: 290px;
+    border-radius: 8px;
+    color: black;
+    text-align: center;
+    font-size: 10px;
+    margin-top: 10px;
+  }
 }

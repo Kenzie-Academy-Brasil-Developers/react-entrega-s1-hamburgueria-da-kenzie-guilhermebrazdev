@@ -19,6 +19,7 @@
 
 #nomeProduto h1 {
   font-size: 18px;
+  height: 45px;
 }
 
 #categoria {
@@ -38,4 +39,23 @@
   border: none;
   color: white;
   font-weight: 600;
+  cursor: pointer;
+}
+
+#botao:hover {
+  filter: brightness(0.9);
+}
+
+@media (min-width: 1024px) {
+  #cardBox {
+    display: flex;
+    flex-direction: column;
+    color: black;
+    border: 2px solid #e0e0e0;
+    width: 200px;
+    border-radius: 8px;
+    height: 370px;
+    margin: 8px;
+    padding-left: 10px;
+  }
 }

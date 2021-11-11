@@ -1,5 +1,5 @@
 #cardapio {
-  width: 100vw;
+  width: 90vw;
   display: flex;
   flex-direction: row;
   flex-wrap: nowrap;
@@ -7,10 +7,11 @@
   overflow-x: scroll;
 }
 
-@media (min-width: 768px) {
+@media (min-width: 1024px) {
   #cardapio {
+    display: flex;
     flex-flow: row wrap;
-    justify-content: space-evenly;
-    width: 1050px;
+    justify-content: flex-start;
+    width: 700px;
   }
 }
